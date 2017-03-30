@@ -1,0 +1,31 @@
+{
+  "name": "botframework-watson-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "botbuilder": "^3.7.0",
+    "watson-developer-cloud": "^2.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "./node_modules/.bin/tsc -p .",
+    "preversion": "npm run clean",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebotmakers/botframework-watson-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebotmakers/botframework-watson-bot/issues"
+  },
+  "homepage": "https://github.com/thebotmakers/botframework-watson-bot#readme"
+}

@@ -1,0 +1,13 @@
+
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "watch": false,
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true
+    }
+}
